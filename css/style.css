@@ -443,7 +443,7 @@ footer{
     line-height: 130%;
     margin-bottom: 40px;
 }
-.footer__input{
+.footer__input, .footer__input:target{
     border: 0;
     border-bottom: 1px solid #9EA3AA;
     width: 300px;
@@ -458,8 +458,8 @@ footer{
     margin-right: 0;
 }
 .side-menu__wrapper{
-    margin-left:355px;
-    margin-top: 20px;
+    width: 1270px;
+    margin: 20px auto 0;
 }
 .side-menu__close{
     margin-bottom: 120px;
@@ -489,7 +489,7 @@ footer{
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
-    transition: 0.75s;
+    transition: 1s;
     background: rgba(245, 245, 245, 0.9);
     /* basic bg blur */
     backdrop-filter: blur(25px);
