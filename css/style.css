@@ -458,8 +458,9 @@ footer{
     margin-right: 0;
 }
 .side-menu__wrapper{
-    margin-left: 298px;
-    margin-top: 40px;
+    max-width: 1270px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .side-menu__close{
     margin-bottom: 120px;
@@ -474,6 +475,7 @@ footer{
 }
 .side-menu__link:hover{
     color: #9EA3AA;
+    transition: 0.3s;
 }
 
 .side__item{
@@ -488,7 +490,7 @@ footer{
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.75s;
     background: rgba(245, 245, 245, 0.9);
     /* basic bg blur */
     backdrop-filter: blur(25px);
