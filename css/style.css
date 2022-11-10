@@ -472,6 +472,9 @@ footer{
     font-size: 26px;
     line-height: 31px;
 }
+.side-menu__link:hover{
+    color: #9EA3AA;
+}
 
 .side__item{
     margin-bottom: 40px;
