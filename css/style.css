@@ -458,8 +458,7 @@ footer{
     margin-right: 0;
 }
 .side-menu__wrapper{
-    max-width: 1270px;
-    margin: 0 auto;
+    margin-left:355px;
     margin-top: 20px;
 }
 .side-menu__close{
