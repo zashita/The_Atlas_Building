@@ -435,9 +435,6 @@ footer{
 .footer__input{
     border: 0;
     border-bottom: 1px solid #9EA3AA;
-    background-image: url("../img/svg/arrow_footer.svg");
-    background-position: left 278px;
-    background-size: 22px;
     width: 300px;
 }
 .footer__item{
@@ -448,6 +445,38 @@ footer{
 }
 .footer__item:last-child{
     margin-right: 0;
+}
+.side-menu__wrapper{
+    margin-left: 340px;
+    margin-top: 40px;
+}
+.side-menu__close{
+    margin-bottom: 120px;
+}
+.side-menu__link{
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+.side__item{
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+
+
+}
+.side-menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background: rgba(245, 245, 245, 0.9);
+    /* basic bg blur */
+    backdrop-filter: blur(25px);
 }
 
 
