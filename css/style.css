@@ -151,6 +151,11 @@ body{
     top: 50%;                         /* 3 */
     transform: translate(0, -50%)
 }
+.header__side-menu-button-pic:hover{
+    height: 15px;
+    width: 20px;
+    transition: width 1000ms;
+ }
 .header__item{
     margin-left: 40px;
 }
@@ -509,12 +514,15 @@ footer{
 .about-us{
     height: 0;
     overflow-x: hidden;
+    transition: margin-bottom 300ms;
 
 
 }
 main{
     overflow-x:hidden ;
+    transition: margin-bottom 300ms;
 }
+
 
 
 
