@@ -522,6 +522,63 @@ main{
     overflow-x:hidden ;
     transition: margin-bottom 300ms;
 }
+.contact-text{
+    margin-bottom: 120px;
+    max-width: 860px;
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.address-title{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+
+    /* Active */
+
+    color: #1F1F1F;
+    margin-bottom: 40px;
+}
+.address-text-1{
+    margin-bottom: 136px;
+}
+.address-text {
+    margin-bottom: 20px;
+}
+
+.address-wrapper{
+    width: 320px;
+    margin: 40px auto;
+}
+.address-button{
+    margin-bottom: 20px;
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+
+}
+.contact-address{
+    margin-right: 20px;
+    width: 360px;
+    max-height: 440px;
+
+    /* Muted black */
+
+    border: 1px solid #9EA3AA;
+}
+.contact-address:last-child{
+    margin-right: 0;
+    border: 0;
+
+}
+.contact-us{
+    height: 0;
+    overflow-x: hidden;
+}
+
 
 
 

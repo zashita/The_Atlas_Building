@@ -1,4 +1,4 @@
-side_links[0].onclick = function (){
+side_links[3].onclick = function (){
 
     for (let i = 0; i < pages.length; i++)
     {
@@ -7,7 +7,7 @@ side_links[0].onclick = function (){
             pages[i].style.height = "0";
         }
     }
-    document.querySelector("main").style.height = "100%";
+    document.getElementsByClassName("contact-us")[0].style.height = "100%";
     sidebar.style.width = "0";
     sidebar.style.opacity = 0;
     document.body.style.overflow = "visible";
